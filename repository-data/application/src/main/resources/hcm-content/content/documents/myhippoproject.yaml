@@ -1,6 +1,8 @@
 /content/documents/myhippoproject:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: eb67557e-4268-4815-bc96-e63d3d978582
   hippo:name: My Hippo Project
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
