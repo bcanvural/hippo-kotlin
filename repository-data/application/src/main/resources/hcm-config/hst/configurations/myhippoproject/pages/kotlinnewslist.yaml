@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myhippoproject/hst:pages/kotlinnewslist:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsNewsComponent
+        hst:template: newslist-main-newslist
+        hst:parameternames: [documentTypes]
+        hst:parametervalues: ['myhippoproject:newsdocument']
