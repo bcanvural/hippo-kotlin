@@ -5,7 +5,7 @@ definitions:
       hst:referencecomponent: hst:abstractpages/base
       /main:
         jcr:primaryType: hst:component
-        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsNewsComponent
+        hst:componentclassname: org.example.components.KotlinNewsComponent
         hst:template: newslist-main-newslist
         hst:parameternames: [documentTypes]
         hst:parametervalues: ['myhippoproject:newsdocument']
